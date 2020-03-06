@@ -1,2 +1,2 @@
 # bts-slam3
-Some DB functions lays here
+Some MySQL PSM functions lays here
