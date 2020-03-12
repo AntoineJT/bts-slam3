@@ -1,0 +1,10 @@
+DELIMITER |
+
+DROP FUNCTION IF EXISTS calculprixttc;
+CREATE FUNCTION calculprixttc(prixHT FLOAT) RETURNS FLOAT(100, 2)
+BEGIN
+    RETURN prixHT * 1.2;
+END;
+
+|
+DELIMITER ;
